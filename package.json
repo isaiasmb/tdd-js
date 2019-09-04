@@ -1,0 +1,28 @@
+{
+  "name": "tdd-js",
+  "version": "1.0.0",
+  "description": "Estudos de TDD em JS",
+  "main": "index.js",
+  "dependencies": {
+    "user": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaiasmb/tdd-js.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Isaias Morona <isaiasbuscarino@hotmail.com> (https://github.com/isaiasmb)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaiasmb/tdd-js/issues"
+  },
+  "homepage": "https://github.com/isaiasmb/tdd-js#readme"
+}
