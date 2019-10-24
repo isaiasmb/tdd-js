@@ -1,9 +1,9 @@
-const a = 3;
-const b = 2;
-const c = 4;
+const sum = (num1, num2) => num1 + num2
 
-function sum() {
-  return a + b + c;
-}
+const sub = (num1, num2) => num1 - num2
 
-sum();
+const mult = (num1, num2) => num1 * num2
+
+const div = (num1, num2) => num2 === 0 ? 'não é possível divisão por zero!' : num1 / num2
+
+export { sum, sub, mult, div }

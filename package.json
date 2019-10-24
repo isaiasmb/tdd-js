@@ -6,15 +6,21 @@
   "dependencies": {
     "user": "^0.0.0"
   },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "prepush": "npm run lint",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch"
+  },
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "husky": "^3.0.5"
-  },
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint src/*.js",
-    "prepush": "npm run lint"
+    "husky": "^3.0.5",
+    "mocha": "^6.2.0"
   },
   "repository": {
     "type": "git",
