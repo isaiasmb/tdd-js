@@ -1,9 +1,25 @@
-const sum = (num1, num2) => num1 + num2
+const FizzBuzz = num => {
+  if (num === 0) {
+    return 0
+  }
 
-const sub = (num1, num2) => num1 - num2
+  if (num % 3 === 0 && num % 5 === 0) {
+    return 'FizzBuzz'
+  }
 
-const mult = (num1, num2) => num1 * num2
+  if (num % 3 === 0) {
+    return 'Fizz'
+  }
 
-const div = (num1, num2) => num2 === 0 ? 'não é possível divisão por zero!' : num1 / num2
+  if (num % 5 === 0) {
+    return 'Buzz'
+  }
 
-export { sum, sub, mult, div }
+  return num
+}
+
+function fun () {
+  return 'bla'
+}
+
+export default FizzBuzz
