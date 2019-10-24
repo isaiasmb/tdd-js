@@ -18,8 +18,4 @@ const FizzBuzz = num => {
   return num
 }
 
-function fun () {
-  return 'bla'
-}
-
 export default FizzBuzz
